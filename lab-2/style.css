@@ -1,0 +1,36 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px;
+}
+
+td {
+  border: 1px solid #6303ff;
+  padding: 8px;
+}
+
+/* Нүдэнд hover хийхэд өнгө өөрчлөгдөнө */
+td:hover {
+  background-color: #ff9800; 
+  cursor: pointer;
+}
+
+th:hover {
+  background-color: #ff9800; 
+}
+body {
+  background-image: url("tokyo-ghoul-flower-oaddrg14a84xb2w9.png"); /* ижил folder дахь зураг */
+  background-size: cover;          /* дэлгэцийг дүүргэнэ */
+  background-repeat: no-repeat;    /* давтахгүй */
+  background-attachment: fixed;    /* scroll хийхэд тогтмол үлдэнэ */
+  background-position: center;     /* төвд байрлуулна */
+  color: rgb(0, 0, 0);                    /* текстийн өнгийг цагаан болгож тодруулна */
+  font-family: Arial, sans-serif;
+}
